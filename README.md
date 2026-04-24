@@ -17,6 +17,9 @@ Key Excel techniques/functions used:
 - TRIM()
 - XLOOKUP()
 
+## File Structure
+Imgs - Screenshots of work
+
 ## Workflow:
 1. Find missing values. I found missing values in the following columns:
     * Item Code
@@ -25,15 +28,13 @@ Key Excel techniques/functions used:
     * Total Spent
     * Discount   
 3. Calculate Price per Unit using Total_Spent/Quantity. I found that where Quantity is blank, Total Spent is also blank.
-4. Deduce Item Code from Price
-
+4. I inserted Item Code into the main table for Furniture. To do this I used XLOOKUP to insert values for Item Code from the Item table into the main table, using Price Per Unit as the lookup value. Please see the screenshot named "XLOOKUP (FUR) (find values for Item Code)" in the Imgs folder. I repeated the same steps for Electric Household Essential transactions. I encountered a problem when using XLOOKUP where it would fill the entire column, therefore replacing correct values for Item Code for other categories with incorrect values from Electric Household Essentials Item Code. To solve this, I used "Undo Calculated Column" command as shown in the screenshot named "XLOOKUP (EHE) Undo Flashfill.png" in the Imgs folder.
      
 Tool used: Excel
 
 ## Key Insights
 
 
-## File Structure
 
 ## Note
 
