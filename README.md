@@ -23,6 +23,10 @@ Key Excel techniques/functions used:
 Imgs - Screenshots of work
 
 ## Workflow:
+### Step 1. Profile the data with Excel Power Query
+
+Using 
+
 ### Step 1. Find missing values.
 
 I found missing values in the following columns:
