@@ -25,19 +25,20 @@ Imgs - Screenshots of work
 ## Workflow:
 ### Step 1. Profile the data with Excel Power Query
 
-Using 
-
-### Step 1. Find missing values.
+Using Excel Power Query's Column Quality feature, I looked at column statistics and column quality. 
 
 I found missing values in the following columns:
 - Item Code
 - Price Per Unit
 - Quantity
 - Total Spent
-- Discount   
+- Discount
+
+Transactions were made from 01/01/2022 to 18/01/2025
     
 ### Step 2. Calculate Price per Unit using Total_Spent/Quantity. 
 
+To fill in missing Price values, I used Total_Spent/Quantity.
 I found that where Quantity is blank, Total Spent is also blank.
 
 ### Step 3. Insert values for Item Code from Look Up Tables to Main Table
