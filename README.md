@@ -24,12 +24,11 @@ Imgs - Screenshots of work
 ### Step 1. Find missing values.
 
 I found missing values in the following columns:
-    * Item Code
-    * Price Per Unit
-    * Quantity
-    * Total Spent
-    * Discount   
-
+- Item Code
+- Price Per Unit
+- Quantity
+- Total Spent
+- Discount   
     
 ### Step 2. Calculate Price per Unit using Total_Spent/Quantity. 
 
