@@ -67,7 +67,19 @@ I repeated the same steps for Electric Household Essentials, this time filtering
 
 ### Step 4. Use Look Up Tables to insert values for Item Name to Main Table
 
-I followed similar steps to Step 3 to insert values for Item Name from the lookup tables to the main table. I used XLOOKUP to match Item code values from the lookup tables with the Item code values in main table. See screenshot named "XLOOKUP (EHE) Item Name.png"
+I followed similar steps to Step 3 to insert values for Item Name from the lookup tables to the main table. I used XLOOKUP to match Item code values from the lookup tables with the Item code values in main table. See screenshot named "XLOOKUP (EHE) Item Name.png" 
+
+### Step 5. Removing old columns and columns used for calculations
+
+Now I had redundant data. 
+
+There was an old Item Code column and an old Price Per Unit column with missing values (for Categories EHE and FUR) as well as a new Item Code and new Price Per Unit column that had trimmed values and no missing values. 
+
+I had to remove the old columns since they still had missing values. For the old Item Code column, I first inserted the same XLOOKUP function that I used in the new trimmed Item Code column. However, this produced a #REF! error (see "Replacing old Item Code with values from XLOOKUP Item Code"). 
+
+I realised that retrieving just the values in the new column without functions could solve this. To do this, I copied the entire dataset into a new excel sheet and used "Paste Special > Values" pasting option (see screenshot "Special Paste.png").
+
+This gave me a dataset without any functions in the cells. I had to remove the old Item Code and Price Per Unit columns as well as columns I used to check XLOOKUP calculations (see "Data with old columns.png" - old columns in red, calculation columns in blue). After removing these columns, a clean dataset remained (see "Clean data.png").
 
 ## Data Source
 
