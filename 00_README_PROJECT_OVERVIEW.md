@@ -49,7 +49,7 @@ I used Excel column statistics and column quality to find the following:
 
 View 'Profiling.png' image in the Imgs folder for a sample of null columns as shown by column quality feature
     
-### Step 2. Calculate Price per Unit using Total_Spent/Quantity. 
+### Step 2. Calculate Price per Unit using Total_Spent/Quantity.
 
 Price per Unit column had missing values.
 
