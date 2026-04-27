@@ -64,7 +64,11 @@ I inserted Item Code into the main table for Furniture. To do this I used XLOOKU
 To avoid trailing and/or leading spaces from causing an error during the XLOOKUP, I trimmed the Item Code and Price columns in the main table and the two look up tables. See screenshots named "TRIM main table.png" and "TRIM Lookup table.png".
 
 I repeated the same steps for Electric Household Essential. I encountered a problem when using XLOOKUP where it would fill the entire column, therefore replacing correct values for Item Code for other categories with incorrect values from Electric Household Essentials Item Code. To solve this, I used "Undo Calculated Column" command (see screenshot named "XLOOKUP (EHE) Undo Flashfill.png").
-     
+
+### Step 4. Use Look Up Tables to insert values for Item Name to Main Table
+
+I followed similar steps to Step 3 to insert values for Item Name from the lookup tables to the main table. I used XLOOKUP to match Item code values from the lookup tables with the Item code values in main table. See screenshot named "XLOOKUP (EHE) Item Name.png"
+
 ## Data Source
 
 Data source: https://www.kaggle.com/datasets/ahmedmohamed2003/retail-store-sales-dirty-for-data-cleaning
