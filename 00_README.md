@@ -20,7 +20,14 @@ Key Excel techniques/functions used:
 - XLOOKUP()
 
 ## File Structure
-Imgs - Screenshots of work
+1. data_cleaning.xlsx - contains cleaning table and look up tables. Contains the following tabs:
+   i. cleaning_retail_store_sales - cleaning the main table
+   ii. EHE - Electric Household Essentials look up table
+   iii. Furniture - Furntiture look up table
+   iv. cleaned_retail_store_sales - cleaned main table
+2. Imgs folder - contains screenshots
+3. retail_store_sales.csv - raw data
+
 
 ## Workflow:
 ### Step 1. Profile the data with Excel Power Query
