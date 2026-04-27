@@ -34,16 +34,16 @@ Key Excel techniques/functions used:
 
 I used Excel column statistics and column quality to find the following:
 
-1. Missing values in the following columns:
+1) Missing values in the following columns:
     * Item Code
     * Price Per Unit
     * Quantity
     * Total Spent
     * Discount
   
-2. 12,575 transactions. One row per transaction
-3. 25 unique customers
-4. Transactions made across 3yrs from 2022-25 (01/01/2022 to 18/01/2025)
+2) 12,575 transactions. One row per transaction
+3) 25 unique customers
+4) Transactions made across 3yrs from 2022-25 (01/01/2022 to 18/01/2025)
 
 View 'Profiling.png' image in the Imgs folder for a sample of null columns as shown by column quality feature
     
@@ -52,9 +52,11 @@ View 'Profiling.png' image in the Imgs folder for a sample of null columns as sh
 To fill in missing Price values, I used Total_Spent/Quantity.
 I found that where Quantity is blank, Total Spent is also blank.
 
-### Step 3. Insert values for Item Code from Look Up Tables to Main Table
+### Step 3. Use Look Up Tables to insert values for Item Code to Main Table
 
-I inserted Item Code into the main table for Furniture. To do this I used XLOOKUP to insert values for Item Code from the Item table into the main table, using Price Per Unit as the lookup value. Please see the screenshot named "XLOOKUP (FUR) (find values for Item Code)" in the Imgs folder. I repeated the same steps for Electric Household Essential transactions. I encountered a problem when using XLOOKUP where it would fill the entire column, therefore replacing correct values for Item Code for other categories with incorrect values from Electric Household Essentials Item Code. To solve this, I used "Undo Calculated Column" command as shown in the screenshot named "XLOOKUP (EHE) Undo Flashfill.png" in the Imgs folder.
+I inserted Item Code into the main table for Furniture. To do this I used XLOOKUP in the main table to insert values for Item Code from the lookup table, using Price Per Unit as the lookup value. See the screenshot named "XLOOKUP (FUR) (find values for Item Code)" in the Imgs folder.
+
+I repeated the same steps for Electric Household Essential. I encountered a problem when using XLOOKUP where it would fill the entire column, therefore replacing correct values for Item Code for other categories with incorrect values from Electric Household Essentials Item Code. To solve this, I used "Undo Calculated Column" command (see screenshot named "XLOOKUP (EHE) Undo Flashfill.png" in Imgs folder).
      
 ## Key Insights
 
