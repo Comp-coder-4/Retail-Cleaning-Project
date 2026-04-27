@@ -61,11 +61,10 @@ However, where Quantity was blank, Total Spent was also blank. In these cases, I
 
 I inserted Item Code into the main table for Furniture. To do this I used XLOOKUP in the main table to insert values for Item Code from the lookup table, using Price Per Unit as the lookup value. See the screenshot named "XLOOKUP (FUR) (find values for Item Code)" in the Imgs folder.
 
-I repeated the same steps for Electric Household Essential. I encountered a problem when using XLOOKUP where it would fill the entire column, therefore replacing correct values for Item Code for other categories with incorrect values from Electric Household Essentials Item Code. To solve this, I used "Undo Calculated Column" command (see screenshot named "XLOOKUP (EHE) Undo Flashfill.png" in Imgs folder).
+To avoid trailing and/or leading spaces from causing an error during the XLOOKUP, I trimmed the Item Code and Price columns in the main table and the two look up tables. See screenshots named "TRIM main table.png" and "TRIM Lookup table.png".
+
+I repeated the same steps for Electric Household Essential. I encountered a problem when using XLOOKUP where it would fill the entire column, therefore replacing correct values for Item Code for other categories with incorrect values from Electric Household Essentials Item Code. To solve this, I used "Undo Calculated Column" command (see screenshot named "XLOOKUP (EHE) Undo Flashfill.png").
      
-## Key Insights
-
-
 ## Note
 
 Data source: https://www.kaggle.com/datasets/ahmedmohamed2003/retail-store-sales-dirty-for-data-cleaning
