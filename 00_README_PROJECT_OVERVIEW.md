@@ -1,4 +1,4 @@
-# <ins>Retail-Cleaning-Project</ins>
+# <ins>Retail Transactions Cleaning Project</ins> :computer:
 
 The dataset looks at transactions across 8 categories of products. It gives details such as whether the purchase was made online or instore, customerID and the amount spent in each transaction.
 
