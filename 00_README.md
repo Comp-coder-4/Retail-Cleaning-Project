@@ -38,7 +38,7 @@ I used Excel column statistics and column quality to find the following:
 3. 25 unique customers
 4. Transactions made across 3yrs from 2022-25 (01/01/2022 to 18/01/2025)
 
-View 'Profiling.png' image in the Imgs folder for column quality screenshot.
+View 'Profiling.png' image in the Imgs folder for a sample of null columns as shown by column quality feature
     
 ### Step 2. Calculate Price per Unit using Total_Spent/Quantity. 
 
