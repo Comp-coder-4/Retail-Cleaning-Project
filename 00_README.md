@@ -13,7 +13,7 @@ The data source provides 3 tables:
 
 ## Business Objective: Clean retail store sales
 
-The goal was to find issues with the dataset and then clean it using Excel functions and 2 look up tables with information on some products and their prices.
+The goal was to find quality issues with the dataset and clean it to improve data quality. This is done using 2 look up tables with product information.
 
 Tool Used: Excel
 
@@ -51,8 +51,11 @@ View 'Profiling.png' image in the Imgs folder for a sample of null columns as sh
     
 ### Step 2. Calculate Price per Unit using Total_Spent/Quantity. 
 
-To fill in missing Price values, I used Total_Spent/Quantity.
-I found that where Quantity is blank, Total Spent is also blank.
+Price per Unit column had missing values.
+
+To fill in missing Price values, I used Total_Spent/Quantity where possible.
+
+However, where Quantity was blank, Total Spent was also blank. In these cases, I could not calculate Price per Unit.
 
 ### Step 3. Use Look Up Tables to insert values for Item Code to Main Table
 
