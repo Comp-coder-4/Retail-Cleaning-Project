@@ -8,8 +8,8 @@ In this project I will use abbreviations for 2 category names. I will use **'EHE
 ______________________________________ 
 The data source provides 3 tables:
 1. A main table with transaction details
-2. A smaller table containing Item Code, Price and Product Name for Electric Household Essentials (I will refer to this as a look up table)
-3. A smaller table containing Item Code, Price and Product Name for Furntiture (I will refer to this as a look up table)
+2. A smaller table containing Item Code, Price and Product Name for EHE products (I will refer to this as a look up table)
+3. A smaller table containing Item Code, Price and Product Name for FUR products (I will refer to this as a look up table)
 
 ## Business Objective: Clean retail store sales
 
