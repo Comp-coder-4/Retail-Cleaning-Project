@@ -75,11 +75,11 @@ I now had a new Item Code and a new Price Per Unit column that had trimmed value
 
 However, there was still an old Item Code column and an old Price Per Unit column with missing values (for Categories EHE and FUR). **This meant I still had redundant data**.
 
-I had to remove the old columns since they still had missing values. For the old Item Code column, I first inserted the same XLOOKUP function that I used in the new trimmed Item Code column. However, this produced a #REF! error (see "Replacing old Item Code with values from XLOOKUP Item Code"). 
+I had to remove the old columns since they still had missing values. For the old Item Code column, I first inserted the same XLOOKUP function that I used in the new trimmed Item Code column. However, this produced a #REF! error (see "Replacing old Item Code with values from XLOOKUP Item Code"). This was because the new trimmed Item Code column had functions in its cells.
 
-I realised that retrieving just the values in the new column without functions could solve this. To do this, I copied the entire dataset into a new excel sheet and used "Paste Special > Values" pasting option (see screenshot "Special Paste.png").
+I realised that retrieving just the values in the new column without functions could solve this. To do this, I copied the entire dataset into a new excel sheet and used "Paste Special > Values" pasting option (see screenshot "Special Paste.png"). This gave me a dataset without any functions in the cells. 
 
-This gave me a dataset without any functions in the cells. I had to remove the old Item Code and Price Per Unit columns as well as columns I used to check XLOOKUP calculations (see "Data with old columns.png" - old columns in red, calculation columns in blue). After removing these columns, a clean dataset remained (see "Clean data.png").
+I could now remove the old Item Code and Price Per Unit columns as well as the columns I used to check my XLOOKUP calculations (see "Data with old columns.png" - old columns in red, calculation columns in blue). After removing these columns, a clean dataset remained (see "Clean data.png").
 
 ## Data Source
 
