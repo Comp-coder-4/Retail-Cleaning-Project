@@ -31,7 +31,7 @@ Key Excel techniques/functions used:
 3. **retail_store_sales.csv** - raw data
 
 
-## Workflow:
+## Workflow
 ### Step 1. Profile the data with Excel Power Query
 
 I used Excel column statistics and column quality to find the following:
@@ -65,6 +65,6 @@ To avoid trailing and/or leading spaces from causing an error during the XLOOKUP
 
 I repeated the same steps for Electric Household Essential. I encountered a problem when using XLOOKUP where it would fill the entire column, therefore replacing correct values for Item Code for other categories with incorrect values from Electric Household Essentials Item Code. To solve this, I used "Undo Calculated Column" command (see screenshot named "XLOOKUP (EHE) Undo Flashfill.png").
      
-## Note
+## Data Source
 
 Data source: https://www.kaggle.com/datasets/ahmedmohamed2003/retail-store-sales-dirty-for-data-cleaning
