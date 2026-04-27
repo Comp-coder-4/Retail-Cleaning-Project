@@ -5,9 +5,9 @@ The dataset looks at transactions across 8 categories of products. It gives deta
 In this project I will use abbreviations for a few category names. I will use 'EHE' abbreviation for 'Electric Household Essentials' and 'FUR' for 'Furniture'.
 ______________________________________
 The data source provides 3 tables:
-1. Main table with transaction details (retail_store_sales tab in Excel file)
-2. Item table for Electric Household Essentials with Item details on Item Code, Price and Item Name (EHE tab)
-3. Item table for Furniture with Item details on Item Code, Price and Item Name (FUR tab)
+1. A main table with transaction details
+2. A smaller table containing Item Code, Price and Product Name for Electric Household Essentials (I will refer to this as a look up table)
+3. A smaller table containing Item Code, Price and Product Name for Furntiture (I will refer to this as a look up table)
 
 ## Business Objective: Clean retail store sales
 
