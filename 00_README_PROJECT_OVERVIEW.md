@@ -71,9 +71,9 @@ I followed similar steps to Step 3 to insert values for Item Name from the looku
 
 ### Step 5. Removing old columns and columns used for calculations
 
-Now I had redundant data. 
+I now had a new Item Code and a new Price Per Unit column that had trimmed values and no missing values. 
 
-There was an old Item Code column and an old Price Per Unit column with missing values (for Categories EHE and FUR) as well as a new Item Code and new Price Per Unit column that had trimmed values and no missing values. 
+However, there was still an old Item Code column and an old Price Per Unit column with missing values (for Categories EHE and FUR). **This meant I still had redundant data**.
 
 I had to remove the old columns since they still had missing values. For the old Item Code column, I first inserted the same XLOOKUP function that I used in the new trimmed Item Code column. However, this produced a #REF! error (see "Replacing old Item Code with values from XLOOKUP Item Code"). 
 
