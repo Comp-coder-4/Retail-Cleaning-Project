@@ -23,10 +23,10 @@ Key Excel techniques/functions used:
 
 ## File Structure
 1. data_cleaning.xlsx - contains cleaning table and look up tables. Contains the following tabs:
-   1. cleaning_retail_store_sales - cleaning the main table
-   2. EHE - Electric Household Essentials look up table
-   3. Furniture - Furntiture look up table
-   4. cleaned_retail_store_sales - cleaned main table
+   * cleaning_retail_store_sales - cleaning the main table
+   * EHE - Electric Household Essentials look up table
+   * Furniture - Furntiture look up table
+   * cleaned_retail_store_sales - cleaned main table
 2. Imgs folder - contains screenshots
 3. retail_store_sales.csv - raw data
 
