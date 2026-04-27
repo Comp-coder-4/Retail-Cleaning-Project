@@ -5,7 +5,7 @@ The dataset looks at transactions across 8 categories of products. It gives deta
 Categories include Furniture, Electric Household Essentials, Beverages, Computer and electronic accessories
 
 In this project I will use abbreviations for 2 category names. I will use **'EHE' abbreviation for 'Electric Household Essentials'** and **'FUR' for 'Furniture'**.
-______________________________________
+______________________________________ 
 The data source provides 3 tables:
 1. A main table with transaction details
 2. A smaller table containing Item Code, Price and Product Name for Electric Household Essentials (I will refer to this as a look up table)
