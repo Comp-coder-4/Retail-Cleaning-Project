@@ -25,16 +25,20 @@ Imgs - Screenshots of work
 ## Workflow:
 ### Step 1. Profile the data with Excel Power Query
 
-Using Excel Power Query's Column Quality feature, I looked at column statistics and column quality. 
+I used Excel column statistics and column quality to find the following:
 
-I found missing values in the following columns:
-- Item Code
-- Price Per Unit
-- Quantity
-- Total Spent
-- Discount
+1. Missing values in the following columns:
+    * Item Code
+    * Price Per Unit
+    * Quantity
+    * Total Spent
+    * Discount
+  
+2. 12,575 transactions. One row per transaction
+3. 25 unique customers
+4. Transactions made across 3yrs from 2022-25 (01/01/2022 to 18/01/2025)
 
-Transactions were made from 01/01/2022 to 18/01/2025
+View 'Profiling.png' image in the Imgs folder for column quality screenshot.
     
 ### Step 2. Calculate Price per Unit using Total_Spent/Quantity. 
 
